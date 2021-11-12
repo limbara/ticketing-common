@@ -1,5 +1,5 @@
 {
-  "name": "ticketing-common",
+  "name": "@nico-lim/ticketing-common",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -11,6 +11,10 @@
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
     "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limbara/ticketing-common.git"
   },
   "keywords": [],
   "author": "",
